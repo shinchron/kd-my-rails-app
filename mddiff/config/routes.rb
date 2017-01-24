@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   get 'main/index'
 
+get 'main/convert/(:id)', to: 'main#convert', as: :convert
+
+match ':controller(/:action)', via: [:get, :post, :patch]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   match ':controller(/:action)', via: [:get, :post, :patch]

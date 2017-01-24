@@ -31,4 +31,12 @@
   </div>
 <% end %>
 
+<h2>実行履歴</h2>
+
+<ul>
+<% @histories.each do |history|  %>
+  <li><%= link_to history.time_exec, convert_path(history) %></li>
+<% end %>
+</ul>
+
 </div>
