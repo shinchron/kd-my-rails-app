@@ -1,0 +1,41 @@
+<body>
+<div class="container">
+   <h1>MDdiff</h1>
+   <p>Markdownを比較するWebアプリ <a href="index2.html">次に進む</a></p>
+
+   <form>
+     <div class="clearfix">
+       <div class="form-group">
+         <textarea placeholder="ここにMarkdownで入力..." rows="6" class="form-control" id="input-markdown"></textarea>
+       </div>
+
+       <div class="form-group">
+         <button type="submit" class="btn btn-primary btn-lg pull-right">変換</button>
+       </div>
+     </div>
+   </form>
+
+   <form>
+     <div class="form-group">
+       <label>Pandoc:</label>
+       <textarea rows="6" class="form-control" id="output-pandoc"></textarea>
+     </div>
+
+     <div class="form-group">
+       <label>GitHub Flavored Markdown:</label>
+       <textarea rows="6" class="form-control" id="output-gfm"></textarea>
+     </div>
+
+     <div class="form-group">
+       <label>MultiMarkdown:</label>
+       <textarea rows="6" class="form-control" id="output-mmd"></textarea>
+     </div>
+   </form>
+
+   </div>
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+ </body>
