@@ -1,7 +1,32 @@
 
 
-Started GET "/" for 192.168.33.1 at 2017-01-25 04:49:20 +0000
+Started GET "/main/index" for 192.168.33.1 at 2017-01-31 03:02:59 +0000
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Rails::WelcomeController#index as HTML
-  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-4.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (12.0ms)
-Completed 200 OK in 84ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 1710ms (Views: 1683.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2017-01-31 03:03:01 +0000
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/main/index2" for 192.168.33.1 at 2017-01-31 03:03:03 +0000
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index2 as HTML
+  Rendered main/index2.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 197ms (Views: 196.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main/index3" for 192.168.33.1 at 2017-01-31 03:03:05 +0000
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index3 as HTML
+  Rendered main/index3.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 205ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main/index4" for 192.168.33.1 at 2017-01-31 03:03:06 +0000
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index4 as HTML
+  Rendered main/index4.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 195ms (Views: 194.4ms | ActiveRecord: 0.0ms)
